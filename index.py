@@ -7,17 +7,15 @@ num2 = float(input("Enter Your Second Number: "))
 
 if operand == "*" :
     result = num1 * num2
-    print("The Answer Is:", result)
-
 
 if operand == "/" :
     result = num1 / num2
-    print("The Answer Is:", result)
 
 if operand == "-" :
     result = num1 - num2
-    print("The Answer Is:", result)
 
 if operand == "+" :
     result = num1 + num2
-    print("The Answer Is:", result)
+
+
+print("The Answer Is:", result)
